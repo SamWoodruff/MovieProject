@@ -17,7 +17,7 @@ public class ReviewEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Long id;
-    private String user_review;
+    private String userReview;
     private int rating;
 
 }

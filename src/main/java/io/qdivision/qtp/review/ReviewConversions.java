@@ -4,7 +4,7 @@ public class ReviewConversions {
     public static Review toReview(ReviewEntity reviewEntity) {
         return Review.builder()
                 .id(reviewEntity.getId())
-                .user_review(reviewEntity.getUser_review())
+                .userReview(reviewEntity.getUserReview())
                 .rating(reviewEntity.getRating())
                 .build();
     }
@@ -12,7 +12,7 @@ public class ReviewConversions {
     public static ReviewEntity toReviewEntity(Review review){
         return ReviewEntity.builder()
                 .id(review.getId())
-                .user_review(review.getUser_review())
+                .userReview(review.getUserReview())
                 .rating(review.getRating())
                 .build();
     }

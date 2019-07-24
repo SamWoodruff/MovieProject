@@ -17,13 +17,13 @@ public class Title {
 
     private Long id;
     private String tconst;
-    private String title_type;
-    private String primary_title;
-    private String original_title;
-    private Boolean is_adult;
-    private Integer start_year;
-    private Integer end_year;
-    private Integer runtime_minutes;
+    private String titleType;
+    private String primaryTitle;
+    private String originalTitle;
+    private Boolean isAdult;
+    private Integer startYear;
+    private Integer endYear;
+    private Integer runtimeMinutes;
     private String genres;
     private Boolean favorite;
     private List<Name> names;

@@ -18,10 +18,10 @@ public class NameEntity {
     @EqualsAndHashCode.Include
     private Long id;
     private String nconst;
-    private String primary_name;
-    private String birth_year;
-    private String death_year;
-    private String primary_profession;
-    private String known_for_titles;
+    private String primaryName;
+    private String birthYear;
+    private String deathYear;
+    private String primaryProfession;
+    private String knownForTitles;
 
 }

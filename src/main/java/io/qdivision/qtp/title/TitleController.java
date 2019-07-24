@@ -30,8 +30,19 @@ public class TitleController {
     }
 
     @GetMapping("{startYear}/{endYear}")
-    public void getTitleBetweenYears(@PathVariable("startYear")String startYear, @PathVariable("endYear")String endYear) {
-        //return titleRepository.findByStartYearBetween(startYear,endYear);
+    public List<Title> getTitleBetweenYears(@PathVariable("startYear")Integer startYear, @PathVariable("endYear")Integer endYear) {
+        return titleRepository.findByStartYearIsBetween(startYear,endYear)
+                .stream()
+                .map(TitleConversions::toTitle)
+                .collect(Collectors.toList());
+    }
+
+    @GetMapping("{movieName}")
+    public List<Title> getByName(@PathVariable("movieName")String movieName){
+        return titleRepository.findByPrimaryTitleContaining(movieName)
+                .stream()
+                .map(TitleConversions::toTitle)
+                .collect(Collectors.toList());
     }
 
     @PostMapping
@@ -46,6 +57,7 @@ public class TitleController {
                 .orElseThrow(() -> new RuntimeException("Favorites not found to update"));
         return toTitle(titleRepository.saveAndFlush(updatedTitle));
     }
+
 
     @GetMapping
     @RequestMapping("favorites")
