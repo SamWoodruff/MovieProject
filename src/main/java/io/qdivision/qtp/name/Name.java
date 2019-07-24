@@ -1,5 +1,6 @@
 package io.qdivision.qtp.name;
 
+import io.qdivision.qtp.title.Title;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,13 +12,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Name {
     private Long id;
-    private String tconst;
-    private String title_type;
-    private String primary_title;
-    private String original_title;
-    private Boolean is_adult;
-    private String start_year;
-    private String end_year;
-    private Integer runtime_minutes;
-    private String genres;
+    private String nconst;
+    private String primary_name;
+    private String birth_year;
+    private String death_year;
+    private String primary_profession;
+    private String known_for_titles;
 }

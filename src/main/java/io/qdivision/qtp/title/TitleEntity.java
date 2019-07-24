@@ -1,9 +1,12 @@
 package io.qdivision.qtp.title;
 
+import io.qdivision.qtp.name.Name;
 import io.qdivision.qtp.name.NameEntity;
+import io.qdivision.qtp.review.ReviewEntity;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "movie")
@@ -27,10 +30,24 @@ public class TitleEntity {
     private Integer end_year;
     private Integer runtime_minutes;
     private String genres;
+    private Boolean favorite;
 
-//    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "name_id")
-//    private NameEntity name;
+    @OneToMany
+    @JoinTable (
+        name = "title_name",
+        joinColumns = {@JoinColumn(name = "title_id", referencedColumnName = "id")},
+        inverseJoinColumns = {@JoinColumn(name = "name_id", referencedColumnName = "id", unique = true)}
+    )
+    private List<NameEntity> names;
+
+    @OneToMany
+    @JoinTable (
+            name = "title_review",
+            joinColumns = {@JoinColumn(name = "title_id", referencedColumnName = "id")},
+            inverseJoinColumns = {@JoinColumn(name = "review_id", referencedColumnName = "id", unique = true)}
+    )
+    private List<ReviewEntity> reviews;
+
 
 
 }

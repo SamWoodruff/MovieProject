@@ -1,11 +1,14 @@
 package io.qdivision.qtp.title;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import io.qdivision.qtp.name.Name;
+import io.qdivision.qtp.name.NameEntity;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import static io.qdivision.qtp.title.TitleConversions.toTitle;
 
 
 @RestController
@@ -19,25 +22,39 @@ public class TitleController {
     }
 
     @GetMapping
-    public List<Title> getTitle() {
+    public List<Title> getAllTitle() {
         return titleRepository.findAll()
                 .stream()
                 .map(titleEntity -> toTitle(titleEntity))
                 .collect(Collectors.toList());
     }
 
-    private Title toTitle(TitleEntity title) {
-        return Title.builder()
-                .id(title.getId())
-                .tconst(title.getTconst())
-                .title_type(title.getTitle_type())
-                .primary_title(title.getPrimary_title())
-                .original_title(title.getOriginal_title())
-                .is_adult(title.getIs_adult())
-                .start_year(title.getStart_year())
-                .end_year(title.getEnd_year())
-                .runtime_minutes(title.getRuntime_minutes())
-                .genres(title.getGenres())
-                .build();
+    @GetMapping("{startYear}/{endYear}")
+    public void getTitleBetweenYears(@PathVariable("startYear")String startYear, @PathVariable("endYear")String endYear) {
+        //return titleRepository.findByStartYearBetween(startYear,endYear);
+    }
+
+    @PostMapping
+    @RequestMapping("{id}/favorite")
+    public Title saveFavorite(@PathVariable("id") Long id) {
+        TitleEntity updatedTitle = titleRepository.findById(id)
+                .map(toUpdate -> {
+                    toUpdate.setFavorite(!toUpdate.getFavorite());
+
+                    return toUpdate;
+                })
+                .orElseThrow(() -> new RuntimeException("Favorites not found to update"));
+        return toTitle(titleRepository.saveAndFlush(updatedTitle));
+    }
+
+    @GetMapping
+    @RequestMapping("favorites")
+    public List<Title> getFavorites() {
+
+        return titleRepository.findAll()
+                .stream()
+                .filter(titleEntity -> titleEntity.getFavorite() == true)
+                .map(titleEntity -> toTitle(titleEntity))
+                .collect(Collectors.toList());
     }
 }

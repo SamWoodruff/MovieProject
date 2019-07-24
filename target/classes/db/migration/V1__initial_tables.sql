@@ -18,5 +18,12 @@ create table movie (
   start_year int null,
   end_year int,
   runtime_minutes int,
-  genres varchar
+  genres varchar,
+  favorite boolean default false
+);
+
+create table review(
+    id serial primary key,
+    user_review varchar not null,
+    rating int
 );

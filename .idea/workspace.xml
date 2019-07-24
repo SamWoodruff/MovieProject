@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03e92ae1-16a8-4ca6-b75f-abe3a6e323f0" name="Default Changelist" comment="" />
+    <list default="true" id="03e92ae1-16a8-4ca6-b75f-abe3a6e323f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameConversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameConversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewConversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewConversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleConversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleConversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initial_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initial_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V5__title_review.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__title_review.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__initial_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__initial_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/name/Name$NameBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/name/Name$NameBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/name/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/name/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/name/NameEntity$NameEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/name/NameEntity$NameEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/name/NameEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/name/NameEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/Title$TitleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/Title$TitleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/Title.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/Title.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/TitleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/TitleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/TitleEntity$TitleEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/TitleEntity$TitleEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/TitleEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/qdivision/qtp/title/TitleEntity.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,16 +40,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/Title.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="450">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,15 +56,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleConversions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            <state relative-caret-position="435">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="585">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,10 +81,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameEntity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="315">
+              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +105,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/Name.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="105">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V5__title_review.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewConversions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/Review.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +173,9 @@
       <find>one</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -120,19 +191,30 @@
         <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/Title/TitleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/Title/TitleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/MovieEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/Name.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V5__favorites.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameConversions.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1__initial_tables.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/Review.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/Title.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleConversions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewConversions.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V5__title_review.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleRepository.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2960" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1686" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="1336" />
+    <option name="width" value="1284" />
+    <option name="height" value="1337" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -140,7 +222,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,6 +294,17 @@
               <item name="io" type="462c0819:PsiDirectoryNode" />
               <item name="qdivision" type="462c0819:PsiDirectoryNode" />
               <item name="qtp" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MovieProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MovieProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="qdivision" type="462c0819:PsiDirectoryNode" />
+              <item name="qtp" type="462c0819:PsiDirectoryNode" />
               <item name="title" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,6 +335,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,8 +343,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -278,7 +373,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.qdivision.qtp.Application" />
+      <module name="MovieProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.qdivision.qtp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Movie Project" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MovieProject" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.qdivision.qtp.Application" />
@@ -287,6 +395,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -305,44 +418,88 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="5984000" />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="2960" y="23" width="1280" height="1336" extended-state="0" />
+    <frame x="1686" y="23" width="1284" height="1337" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25281805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32984716" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.420418" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27710843" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32931727" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32851407" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25281805" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4361446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3292683" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -352,18 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-48">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -381,20 +526,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/Name.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleEntity2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/favorites.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V5__favorites.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleEntity2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V2__title_basics_top_250.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameConversions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -403,11 +577,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/name/NameEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__initial_tables.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -420,39 +621,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V4__title_name.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__initial_tables.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V5__title_review.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V2__title_basics_top_250.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="34" column="39" selection-start-line="1" selection-start-column="3" selection-end-line="34" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="585">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleConversions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="435">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -461,8 +655,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/Title.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="450">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -471,13 +695,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/title/TitleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        <state relative-caret-position="315">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qdivision/qtp/review/ReviewConversions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="19" />
         </state>
       </provider>
     </entry>
