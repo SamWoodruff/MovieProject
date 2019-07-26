@@ -22,11 +22,22 @@ public class TitleController {
     }
 
     @GetMapping
-    public List<Title> getAllTitle() {
-        return titleRepository.findAll()
+    public List<Title> getAllTitle(@RequestParam(value = "titleId", defaultValue = "") Long titleId) {
+        List<Title> titles =
+                        titleRepository.findAll()
+                                .stream()
+                                .map(titleEntity -> toTitle(titleEntity))
+                                .collect(Collectors.toList());
+        return
+            titleId == null ?
+                titles
+            :
+                titles
                 .stream()
-                .map(titleEntity -> toTitle(titleEntity))
+                .filter(title -> title.getId().equals(titleId))
                 .collect(Collectors.toList());
+
+
     }
 
     @GetMapping("{startYear}/{endYear}")
